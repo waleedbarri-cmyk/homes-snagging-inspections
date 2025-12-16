@@ -142,7 +142,8 @@
 
     <section class="contact" id="contact">
         <h2>Request a Quote</h2>
-        <form action="mailto:waleedbarri@gmail.com" method="post" enctype="text/plain">
+        <!-- Use Formsubmit to securely send form submissions without triggering local email clients -->
+        <form action="https://formsubmit.co/waleedbarri@gmail.com" method="POST">
             <input type="text" name="Name" placeholder="Your Name" required>
             <input type="email" name="Email" placeholder="Your Email" required>
             <input type="tel" name="Phone" placeholder="Your Phone Number" required>
